@@ -6,10 +6,10 @@ public abstract class SimpleVan : MonoBehaviour
 {
     [Header("Player Name")]
     public string playerName;
-    [Range(0, 10)]
-    public float speed;
-    [Range(0, 0.5f)]
-    public float angularSpeed = 0.1f;
+    [Range(5, 10)]
+    public float speed = 5f;
+    [Range(0, 45f)]
+    public float angularSpeed = 1f;
 
     private TextMesh textMeshPlayerName;
     //CONSTANTES    

@@ -1239,7 +1239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Silly
   speed: 5
-  angularSpeed: 0.1
+  angularSpeed: 0
 --- !u!1 &1720061622
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,8 +1474,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerName: Paniagua
-  speed: 10
-  angularSpeed: 0.1
+  speed: 5
+  angularSpeed: 45
 --- !u!1001 &713637050179957371
 PrefabInstance:
   m_ObjectHideFlags: 0

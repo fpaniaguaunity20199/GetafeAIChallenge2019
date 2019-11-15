@@ -13,7 +13,7 @@ public class PaniaguaVan : SimpleVan
     public override void Update()
     {
         transform.Translate(direction * speed * Time.deltaTime);
-        transform.Rotate(rotation);
+        transform.Rotate(rotation * Time.deltaTime);
     }
 
     protected override void OnTriggerEnter(Collider other)
